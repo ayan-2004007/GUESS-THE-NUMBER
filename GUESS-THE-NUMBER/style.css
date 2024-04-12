@@ -1,0 +1,132 @@
+*{
+    margin: 0;;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(1873.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.gameName{
+    font-size: 76px;
+    color: #BD00FF;
+    font-family: "Fontdiner Swanky", serif;
+    letter-spacing: 9px;
+    text-shadow: 5px 8px 4px black;
+    margin: 0 auto;
+    font-weight: 600;
+    margin-top: 10px;
+    -webkit-text-stroke: 0.5px #fff;
+}
+.gameTag{
+    color: white;
+    font-size: 26px;
+    font-family: "Fontdiner Swanky", serif;
+    font-weight: 400;
+    word-spacing: 6px;
+    letter-spacing: 3px;
+    margin-top: 5px;
+}
+.mainGame{
+    height: 686px;
+    width: 971px;
+    border-radius: 32px;
+    background-color: rgb(0 0 0 / 80%);
+    margin-top: 38px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 54px;
+    /* box-shadow: 0px 0px 2px 4px black; */
+}
+.input{
+    text-align: center;
+}
+.inputText{
+    font-size: 48px;
+    font-family: "Fontdiner Swanky", serif;
+    color: white;
+    font-weight: 200;
+    word-spacing: 5px;
+}
+.playerInput{
+    width: 660px;
+    height: 60px;
+    background-color: rgba(255, 255, 255, 0.53);
+    border: 2px solid white;
+    border-radius: 10px;
+    margin-top: 18px;
+    padding: 12px;
+}
+.playerInput[type='text']{
+    font-size: 36px;
+    font-family: "Fontdiner Swanky", serif;
+    color: #8f07de;
+    letter-spacing: 10px;
+}
+.button{
+    width: 217px;
+    height: 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: #03D73F;
+    font-family: "Freckle Face", system-ui;
+    font-size: 38px;
+    color: white;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+.button:hover{
+    background-color: #02a02f;
+    transition-duration: 0.15s;
+}
+.start{
+    width: 360px;
+    display: none;
+}
+.result{
+    font-family: "Freckle Face", system-ui;
+    font-size: 42px;
+    color: #9f00ff;
+    font-weight: 600;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.pguess_remain{
+    height: 80px;
+    width: 900px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+}
+.pguess_remain p{
+    font-size: 26px;
+    color: white;
+    font-family: "Freckle Face", system-ui;
+    /* font-family: "Fontdiner Swanky", serif; */
+    font-weight: 400;
+    text-align: center;
+    font-weight: 400;
+}
+.footer{
+    height: 60px;
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.76);
+    margin-top: 34px;
+    font-size: 22px;
+    font-family: "Fontdiner Swanky", serif;
+    color: #757575;
+    text-align: center;
+    letter-spacing: 2px;
+    word-spacing:5px ;
+}

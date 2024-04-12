@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess The Number | Ayan</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fontdiner+Swanky&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="main">
+        <h1 class="gameName">GUESS THE NUMBER</h1>
+        <h2 class="gameTag">can you guess the right number between 1 to 100 under 8 guesses ?</h2>
+        <div class="mainGame">
+            <div class="input">
+                <h1 class="inputText">Enter Your Guess Here...</h1>
+                <input type="text" class="playerInput">
+            </div>
+            <button class="submit button" onclick="submit()">submit</button>
+            <button class="start button" onclick="startNewGame()">START NEW GAME</button>
+            <h1 class="result">RESULT : </h1>
+            <div class="pguess_remain">
+                <p class="pGuess">Your Previous Guesses :  </p>
+                <p class="remain">Guesses Remaining : </p>
+            </div>
+        </div>
+        <div class="footer">©copyright 2024 | AYAN</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
